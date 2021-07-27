@@ -3,6 +3,29 @@
 クォータービューゲーム試作8<br>
 index.htmlを開いて実行。
 
+## srcの内容
+
+### 表示されるhtmlファイル
+simulator.html：シミュレータ <br>
+editor.html：ブロックエディタ <br>
+palette.html：パレット <br>
+
+### htmlファイルに呼び出されるjsファイル
+phina.js：シミュレータ制作で使用しているフレームワーク <br>
+simulator.js：シミュレータ phina.jsを使用 <br>
+editor.js：elmファイルを変換したエディタ <br>
+palette.js：elmファイルを変換したパレット かなり適当 <br>
+stage1.js：シミュレータで利用するステージ情報 <br>
+
+### jsファイルに変換する前のelmファイル
+QVG3.elm：エディタ <br>
+Palette2.elm：パレット <br>
+
+### 表示される画像
+stage01.png：ステージを構成するブロック <br>
+chara01.png：操作キャラクター <br>
+item01.png：収集アイテム <br>
+
 ## 操作方法
 中央のパレットのブロックをクリックすると、右のブロックエディタにブロックが追加される。削除はまだできない。<br>
 ブロックを組立てて「プログラムを送信」ボタンをクリックすると、画面左側のシミュレータが動作を開始する。<br>
